@@ -1,5 +1,7 @@
 # SpaceNameBar
 
+**🌐 Website:** [turhe123.github.io/space-name-bar](https://turhe123.github.io/space-name-bar/)
+
 Name your virtual desktops and see the current Space name in the menu bar, with click-to-switch.
 
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-blue)
@@ -26,7 +28,17 @@ macOS only calls your Spaces "Desktop 1", "Desktop 2" and so on, and gives no vi
 
 ## Screenshots
 
-_Screenshots coming soon._
+<p align="center"><img src="docs/screenshots/01-menu.png" alt="SpaceNameBar menu showing Desktop 1 named Deep Work with a window count badge" width="720"></p>
+
+<p align="center"><em>The SpaceNameBar dropdown lists your Spaces with custom names and emoji, marks the current one, and shows how many windows each holds.</em></p>
+
+<p align="center"><img src="docs/screenshots/02-settings.png" alt="SpaceNameBar Settings window" width="560"></p>
+
+<p align="center"><em>Settings let you choose the menu bar format, title length, window counts, multi-display listing, shortcut checks and launch at login.</em></p>
+
+<p align="center"><img src="docs/screenshots/03-getting-started.png" alt="SpaceNameBar menu with the getting-started checklist" width="560"></p>
+
+<p align="center"><em>On first launch, a getting-started checklist confirms Space detection and helps enable the Switch to Desktop shortcuts and Accessibility access.</em></p>
 
 ## Install
 

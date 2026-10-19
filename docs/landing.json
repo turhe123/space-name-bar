@@ -1,0 +1,60 @@
+{
+  "seo_title": "Name your Spaces in the menu bar",
+  "seo_description": "SpaceNameBar is a free, open-source menu bar app that names your macOS Spaces, shows the current one, and switches with a click. Native, offline, MIT.",
+  "hero_title_line1": "Know which Space",
+  "hero_title_accent": "you are on.",
+  "hero_sub": "SpaceNameBar shows the current Space and its custom name in the menu bar. Open the dropdown to rename Spaces, add an emoji, and click any row to jump straight there.",
+  "features_title": "Small app, clear desktops.",
+  "features_sub": "Everything lives in one menu bar item, with no accounts, servers or network access.",
+  "features": [
+    {
+      "icon": "text",
+      "title": "Custom names and emoji",
+      "desc": "Double-click a Space in the dropdown to rename it and add an optional emoji prefix. Names are saved per Space, so reordering in Mission Control keeps them correct."
+    },
+    {
+      "icon": "cursor",
+      "title": "Click to switch Spaces",
+      "desc": "Click a row to jump to that Space. The app posts your own Switch to Desktop N shortcuts, and clicking a full-screen Space activates that app."
+    },
+    {
+      "icon": "window",
+      "title": "Window counts per Space",
+      "desc": "An optional badge shows how many app windows live on each Space. It uses only window bounds and owner information, never contents or titles."
+    },
+    {
+      "icon": "display",
+      "title": "Multiple display support",
+      "desc": "By default the list shows the Spaces of the display with the menu bar. A setting lists every display, and up to 16 Spaces are handled."
+    },
+    {
+      "icon": "sliders",
+      "title": "Choose what the bar shows",
+      "desc": "Display the number, the name, or both, and set a maximum title length from 5 to 40 characters. Launch at login is a single toggle."
+    },
+    {
+      "icon": "shield",
+      "title": "Private and native",
+      "desc": "Built with SwiftUI and AppKit, with no analytics and no network connections. If Space lookup is unavailable after a macOS update, it falls back to the Dock's saved layout and tells you in Settings."
+    }
+  ],
+  "permissions_step": "For click-to-switch, enable the Switch to Desktop N shortcuts in System Settings > Keyboard > Keyboard Shortcuts > Mission Control, and grant Accessibility access in System Settings > Privacy & Security > Accessibility.",
+  "faq": [
+    {
+      "q": "Is SpaceNameBar really free and open source?",
+      "a": "Yes. It is released under the MIT license and the full source is on GitHub. There are no accounts, subscriptions or paid tiers, and an optional Ko-fi button is the only way to support it."
+    },
+    {
+      "q": "What permissions does it need?",
+      "a": "Only Accessibility, and only for click-to-switch, because the app posts the Control plus number shortcuts that make macOS change Space. Without it, the menu bar name, renaming and everything else still work. It does not ask for Screen Recording or Microphone access."
+    },
+    {
+      "q": "Where is my data stored?",
+      "a": "Space names, emoji and settings are stored locally in your macOS user defaults, keyed by Space identifier. Nothing is sent anywhere, because the app makes no network connections."
+    },
+    {
+      "q": "Why isn't the app notarized?",
+      "a": "Notarization requires a paid Apple Developer account, and this is a free project. Right-click the app and choose Open once to approve it, or build it from source with Xcode."
+    }
+  ]
+}

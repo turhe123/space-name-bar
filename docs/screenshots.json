@@ -1,0 +1,5 @@
+[
+  {"file":"01-menu.png","caption":"The SpaceNameBar dropdown lists your Spaces with custom names and emoji, marks the current one, and shows how many windows each holds.","alt":"SpaceNameBar menu showing Desktop 1 named Deep Work with a window count badge"},
+  {"file":"02-settings.png","caption":"Settings let you choose the menu bar format, title length, window counts, multi-display listing, shortcut checks and launch at login.","alt":"SpaceNameBar Settings window"},
+  {"file":"03-getting-started.png","caption":"On first launch, a getting-started checklist confirms Space detection and helps enable the Switch to Desktop shortcuts and Accessibility access.","alt":"SpaceNameBar menu with the getting-started checklist"}
+]
